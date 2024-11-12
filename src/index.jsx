@@ -19,8 +19,8 @@ function App() {
   },[count])
 
   return <div>
-    <p>{count}</p>
-    <button onClick={handleClick}>加一</button>
+    <p className="p">{count}</p>
+    <button className="btn" onClick={handleClick}>加一</button>
   </div>;
 }
 
